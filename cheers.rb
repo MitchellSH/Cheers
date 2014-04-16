@@ -1,9 +1,9 @@
 puts "What's your name?"
 name = gets.chomp
-name.each_char do |character|
-  if character == "a" || character == "e" || character == "i" || character == "o" || character == "u"
-    puts "Give me an.. " + character
+name.each_char do |c|
+  if c == "a" || c == "e" || c == "i" || c == "o" || c == "u" || c == "A" || c == "E" || c == "I" || c == "O" || c == "U"
+    puts "Give me an.. " + c.upcase
   else
-    puts "Give me a.." + character
+    puts "Give me a... " + c.upcase
   end
 end
