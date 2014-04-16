@@ -1,4 +1,4 @@
 Cheers
 ======
 
-First Ruby project in the second half of NSS-Cohort IV.
+A simple program meant to get input from the user, using Ruby.
