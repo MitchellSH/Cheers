@@ -1,4 +1,4 @@
-require_relative 'helper'
+calrequire_relative 'helper'
 
 class TestCheersIntegration < MiniTest::Unit::TestCase
 
